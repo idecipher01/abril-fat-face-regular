@@ -1,6 +1,11 @@
 @font-face {
     font-family: 'abrilfatface-regular';
     src: url('https://cdn.rawgit.com/idecipher01/abril-fat-face-regular/blob/master/font/abrilfatface-regular.ttf');
+    src: url('https://cdn.rawgit.com/idecipher01/abril-fat-face-regular/blob/master/font/abrilfatface-regular.ttf') format('embedded-opentype'),
+         url('https://cdn.rawgit.com/idecipher01/abril-fat-face-regular/blob/master/font/abrilfatface-regular.ttf') format('woff2'),
+         url('https://cdn.rawgit.com/idecipher01/abril-fat-face-regular/blob/master/font/abrilfatface-regular.ttf') format('woff'),
+         url('https://cdn.rawgit.com/idecipher01/abril-fat-face-regular/blob/master/font/abrilfatface-regular.ttf') format('truetype'),
+         url('https://cdn.rawgit.com/idecipher01/abril-fat-face-regular/blob/master/font/abrilfatface-regular.ttf') format('svg');
     font-weight: 100;
     font-style: normal;
 } 
